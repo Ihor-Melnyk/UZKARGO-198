@@ -564,7 +564,6 @@ function onTaskExecuteVerifyApplication(routeStage) {
       ).format("DD.MM.YYYY")}`
     );
   }
-  sendCommand(routeStage);
 }
 
 function onTaskExecuteMainTask(routeStage) {
@@ -572,6 +571,7 @@ function onTaskExecuteMainTask(routeStage) {
     sendCommand(routeStage);
   }
 }
+
 //передача коментара в єСайн, додаткових функцій не потрібно
 function onTaskCommentedSendOutDoc(caseTaskComment) {
   debugger;
